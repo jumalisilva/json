@@ -9,7 +9,7 @@ const pessoa = {
 const stringJSON = JSON.stringify(pessoa);
 console.log(stringJSON);
 
-// COnverter de volta para objeto
+// Converter de volta para objeto
 const pessoa2 = JSON.parse(stringJSON);
 console.log(pessoa2);
 
